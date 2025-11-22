@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.7.1/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-entity 
+        gltf-model="cat_sitting.glb"
+        position="-1.5 1.3 -3"
+        rotation="0 -30 0"
+        scale="0.02 0.02 0.02">
+      </a-entity>
+      <a-entity 
+        gltf-model="babuleh_cat.glb"
+        position="1 0 -3"
+        rotation="0 -45 0"
+        scale="0.5 0.5 0.5">
+      </a-entity>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="pink"></a-plane>
+      <a-sky src="tigers.jpg" rotation="0 -90 0"></a-sky>
+    </a-scene>
+  </body>
+</html>
